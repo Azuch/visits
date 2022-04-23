@@ -2,7 +2,7 @@ version: '3'
 
 services:
   redis-sever:
-    image: "redis:2.8.0"
+    image: "redis"
   node-app:
     build: .
     ports:
